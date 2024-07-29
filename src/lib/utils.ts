@@ -13,7 +13,7 @@ export const colors = [
   "bg-[#4cc9f02a] text-[#4cc9f0] border border-[#4cc9f0bb]",
 ];
 
-export const getColors = (color) => {
+export const getColors = (color: number) => {
   if (color >= 0 && color < colors.length) {
     return colors[color];
   }
